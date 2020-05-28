@@ -13,3 +13,19 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
+  - name: quotes
+    label: Quotes Configuration
+    description: List of Quotes
+    files:
+      - label: quote
+        name: Quote
+        file: src/data/quotes.yml
+        fields:
+          - label: Quote List
+            name: quoteList
+            widget: "list"
+            fields:
+              - {label: Text, name: text, widget: string}
+              - {label: Author, name: author, widget: string}
+             
