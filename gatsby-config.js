@@ -6,14 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
-    `gatsby-image-background-slider`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `backgrounds`,
-        path: `${__dirname}/theberton-lion-v2/src/images/background-slider`, // wherever background images are stored
-      },
-    },
+    
 
     `gatsby-plugin-react-helmet`,
     {
