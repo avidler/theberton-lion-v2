@@ -10,3 +10,5 @@ items:
 quoteList:
   - text: Here is quote 1
     author: Arthur Author
+  - text: Here is quote 2
+    author: Arthur Author
