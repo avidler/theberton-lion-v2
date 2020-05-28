@@ -7,3 +7,6 @@ items:
     author: Author 3
   - text: Quote 4
     author: Author 4
+quoteList:
+  - text: Here is quote 1
+    author: Arthur Author
